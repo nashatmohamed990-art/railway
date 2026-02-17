@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+
+# Local config (DO NOT push to GitHub — use Railway env vars instead)
+config.json
+
+# Database (Railway filesystem is ephemeral — use external DB in production)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
